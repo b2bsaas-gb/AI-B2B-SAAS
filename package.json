@@ -22,7 +22,6 @@
     "@astrojs/check": "^0.2.0",
     "@astrojs/netlify": "^3.0.2",
     "@astrojs/react": "^3.0.0",
-    "@astrojs/vercel": "^4.0.2",
     "@propelauth/base-elements": "^0.0.16",
     "@propelauth/node": "^2.1.0",
     "@propelauth/react": "2.1.0-beta.4",

@@ -1,5 +1,4 @@
 import react from '@astrojs/react';
-import vercel from '@astrojs/vercel/serverless';
 import { defineConfig } from 'astro/config';
 import checker from 'vite-plugin-checker';
 
@@ -11,7 +10,7 @@ export default defineConfig({
   output: 'hybrid',
   adapter: netlify(),
   // eslint-disable-next-line no-undef
-  site: process.env.SITE_URL,
+  site: 'https://delightful-seahorse-b526e2.netlify.app',
   vite: {
     plugins: [checker({
       typescript: true,
